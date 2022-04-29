@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import About from './About/About';
 import './App.css';
+import Blog from './Blog/Blog';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
@@ -16,9 +17,9 @@ function App() {
       <Header></Header>
       <Routes>
 
-        <Route path="inventory" element={<Inventory />} />
+        <Route path="/" element={<Inventory />} />
         <Route path="about" element={<About />} />
-        <Route path="logIn" element={<LogIn />} />
+        <Route path="Blog" element={<Blog />} />
         <Route path="logIn" element={<LogIn />} />
         <Route path="signUp" element={<SignUp />} />
         <Route path="*" element={<PageNotFound />} />
