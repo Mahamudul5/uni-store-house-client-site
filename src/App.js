@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import About from './About/About';
 import './App.css';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Inventory from './Inventory/Inventory';
 import LogIn from './LogIn/LogIn';
@@ -9,7 +10,7 @@ import SignUp from './SignUp/SignUp';
 
 function App() {
   return (
-    <div>
+    <div className>
       <Header></Header>
       <Routes>
 
@@ -20,7 +21,7 @@ function App() {
         <Route path="/signUp" element={<SignUp />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-
+      <Footer></Footer>
     </div>
   );
 }
