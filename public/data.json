@@ -19,5 +19,26 @@
         "price": "10000",
         "description": "If you are feel bad to join group.It's for You.",
         "img": "./images/private-class.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Online-class",
+        "price": "3000",
+        "description": "it's high time to finish your course from home",
+        "img": "./images/online-class.png"
+    },
+    {
+        "id": 5,
+        "name": "Online-class",
+        "price": "3000",
+        "description": "it's high time to finish your course from home",
+        "img": "./images/online-class.png"
+    },
+    {
+        "id": 6,
+        "name": "Online-class",
+        "price": "3000",
+        "description": "it's high time to finish your course from home",
+        "img": "./images/online-class.png"
     }
 ]
