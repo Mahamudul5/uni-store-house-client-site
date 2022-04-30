@@ -4,8 +4,7 @@ import './App.css';
 import Blog from './Blog/Blog';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-
-
+import Home from './Home/Home';
 import Inventory from './Inventory/Inventory';
 import LogIn from './LogIn/LogIn';
 import PageNotFound from './PageNotFoound/PageNotFound';
@@ -16,8 +15,7 @@ function App() {
     <div className>
       <Header></Header>
       <Routes>
-
-        <Route path="/" element={<Inventory />} />
+        <Route path="/" element={<Home />} />
         <Route path="Inventory" element={<Inventory />} />
         <Route path="about" element={<About />} />
         <Route path="Blog" element={<Blog />} />
