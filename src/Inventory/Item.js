@@ -8,9 +8,10 @@ import './Item.css'
 const Item = ({ item }) => {
     const { id, name, img, price, description } = item;
     const navigate = useNavigate();
-    const goToDetails = id => {
+    const goToDetails = (id) => {
         navigate(`/UpdateSingleItem/${id}`)
     }
+
     return (
         <div >
             <div>

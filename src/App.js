@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import Home from './Home/Home';
 import Inventory from './Inventory/Inventory';
 import LogIn from './LogIn/LogIn';
+import RequireAuth from './LogIn/RequireAuth';
 import PageNotFound from './PageNotFoound/PageNotFound';
 import SignUp from './SignUp/SignUp';
 import UpdateSingleItem from './UpdateSingleItem/UpdateSingleItem';
@@ -20,7 +21,9 @@ function App() {
         <Route path="Inventory" element={<Inventory />} />
         <Route path="about" element={<About />} />
         <Route path="Blog" element={<Blog />} />
-        <Route path="UpdateSingleItem/:Id" element={<UpdateSingleItem />} />
+        <Route path="UpdateSingleItem/:Id" element={<RequireAuth>
+          <UpdateSingleItem />
+        </RequireAuth>} />
         <Route path="logIn" element={<LogIn />} />
         <Route path="signUp" element={<SignUp />} />
         <Route path="*" element={<PageNotFound />} />
