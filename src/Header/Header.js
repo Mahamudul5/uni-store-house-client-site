@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../firebase.init';
 import { signOut } from 'firebase/auth';
+import photo from '../images/uni-fav.png';
 
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
                     <Navbar.Brand as={Link} to="/" href="/" className='text-primary'>
                         <img
                             alt=""
-                            src="./uni-fav.png"
+                            src={photo}
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
