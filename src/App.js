@@ -9,6 +9,7 @@ import Inventory from './Inventory/Inventory';
 import LogIn from './LogIn/LogIn';
 import PageNotFound from './PageNotFoound/PageNotFound';
 import SignUp from './SignUp/SignUp';
+import UpdateSingleItem from './UpdateSingleItem/UpdateSingleItem';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="Inventory" element={<Inventory />} />
         <Route path="about" element={<About />} />
         <Route path="Blog" element={<Blog />} />
+        <Route path="UpdateSingleItem/:Id" element={<UpdateSingleItem />} />
         <Route path="logIn" element={<LogIn />} />
         <Route path="signUp" element={<SignUp />} />
         <Route path="*" element={<PageNotFound />} />

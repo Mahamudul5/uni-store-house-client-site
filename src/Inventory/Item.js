@@ -9,7 +9,7 @@ const Item = ({ item }) => {
     const { id, name, img, price, description } = item;
     const navigate = useNavigate();
     const goToDetails = id => {
-        navigate(`Item/${id}`)
+        navigate(`/UpdateSingleItem/${id}`)
     }
     return (
         <div >
