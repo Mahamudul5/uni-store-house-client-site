@@ -9,13 +9,14 @@ import Home from './Home/Home';
 import Inventory from './Inventory/Inventory';
 import LogIn from './LogIn/LogIn';
 import RequireAuth from './LogIn/RequireAuth';
+import OurServices from './OurServices/OurServices';
 import PageNotFound from './PageNotFoound/PageNotFound';
 import SignUp from './SignUp/SignUp';
 import UpdateSingleItem from './UpdateSingleItem/UpdateSingleItem';
 
 function App() {
   return (
-    <div className>
+    <div className='bg'>
       <Header></Header>
       <Banner></Banner>
       <Routes>
@@ -30,6 +31,7 @@ function App() {
         <Route path="signUp" element={<SignUp />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      <OurServices></OurServices>
       <Footer></Footer>
     </div>
   );
