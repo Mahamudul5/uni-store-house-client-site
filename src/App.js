@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import About from './About/About';
 import './App.css';
+import Banner from './Banner/Banner';
 import Blog from './Blog/Blog';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className>
       <Header></Header>
+      <Banner></Banner>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="Inventory" element={<Inventory />} />
