@@ -12,9 +12,9 @@
 
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 667px) {
     .service {
-        width: 80%;
+        width: 100%;
         margin: 10px;
         padding: 10px;
         border: 1px solid gray;

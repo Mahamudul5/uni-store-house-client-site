@@ -9,6 +9,7 @@ import Home from './Home/Home';
 import Inventory from './Inventory/Inventory';
 import LogIn from './LogIn/LogIn';
 import RequireAuth from './LogIn/RequireAuth';
+import Network from './Network/Network';
 import OurServices from './OurServices/OurServices';
 import PageNotFound from './PageNotFoound/PageNotFound';
 import SignUp from './SignUp/SignUp';
@@ -32,6 +33,7 @@ function App() {
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <OurServices></OurServices>
+      <Network></Network>
       <Footer></Footer>
     </div>
   );
