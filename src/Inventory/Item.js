@@ -6,10 +6,10 @@ import './Item.css'
 
 
 const Item = ({ item }) => {
-    const { id, name, img, price, description } = item;
+    const { _id, name, img, price, description } = item;
     const navigate = useNavigate();
-    const goToDetails = (id) => {
-        navigate(`/UpdateSingleItem/${id}`)
+    const goToDetails = (_id) => {
+        navigate(`/UpdateSingleItem/${_id}`)
     }
 
     return (
@@ -23,7 +23,7 @@ const Item = ({ item }) => {
                             <h5 className='text-center'>price:{price}</h5>
                             <p className='text-center'>{description}</p>
                         </Card.Text>
-                        <Button onClick={() => goToDetails(id)} variant="primary d-block mx-auto">Update</Button>
+                        <Button onClick={() => goToDetails(_id)} variant="primary d-block mx-auto">Update</Button>
                     </Card.Body>
                 </Card>
             </div>

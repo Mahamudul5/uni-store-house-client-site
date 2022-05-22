@@ -1,44 +1,74 @@
 [
     {
         "id": 1,
-        "name": "Online-class",
-        "price": "3000",
-        "description": "it's high time to finish your course from home",
-        "img": "./images/online-class.png"
+        "name": "Dove-shop",
+        "price": "30",
+        "quantity": "5",
+        "description": "it's so good for girl",
+        "img": "./images/dove.jpg"
     },
     {
         "id": 2,
-        "name": "Offline-class",
-        "price": "5500",
-        "description": "Offline class is easy to learn.Have fun and learn.",
-        "img": "./images/offline-class.jpg"
+        "name": "Dove-shampoo",
+        "price": "550",
+        "quantity": "1",
+        "description": "it's so good for girl hair.",
+        "img": "./images/dove_shampoo.jpg"
     },
     {
         "id": 3,
-        "name": "Private-class",
-        "price": "10000",
-        "description": "If you are feel bad to join group.It's for You.",
-        "img": "./images/private-class.jpg"
+        "name": "Sunslik-shampoo",
+        "price": "100",
+        "quantity": "15",
+        "description": ".It's good for hair.",
+        "img": "./images/sunsilk.jpg"
     },
     {
         "id": 4,
-        "name": "Online-class",
-        "price": "3000",
-        "description": "it's high time to finish your course from home",
-        "img": "./images/online-class.png"
+        "name": "Chaka-ball shop",
+        "price": "30",
+        "quantity": "52",
+        "description": "white white and white .its make your dress white",
+        "img": "./images/chaka_ball.jpg"
     },
     {
         "id": 5,
-        "name": "Online-class",
-        "price": "3000",
-        "description": "it's high time to finish your course from home",
-        "img": "./images/online-class.png"
+        "name": "Rin whashing powder",
+        "price": "35",
+        "quantity": "56",
+        "description": "sadaar cheyeo beshi sadaa",
+        "img": "./images/Rin-Washing-Powder.jpg"
     },
     {
         "id": 6,
-        "name": "Online-class",
-        "price": "3000",
-        "description": "it's high time to finish your course from home",
-        "img": "./images/online-class.png"
+        "name": "lifebeoy-shop",
+        "price": "15",
+        "quantity": "20",
+        "description": "jibanu theke surokkha",
+        "img": "./images/lifebouy.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Lifebeoy-handwhash",
+        "price": "40",
+        "quantity": "560",
+        "description": "jibanu muktto proti kkhon",
+        "img": "./images/lifebouyhandwash (1).jpg"
+    },
+    {
+        "id": 8,
+        "name": "Vaseline",
+        "price": "5",
+        "quantity": "567",
+        "description": "shiter surokkha",
+        "img": "./images/vaseline.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Vasline-loson",
+        "price": "35",
+        "quantity": "56",
+        "description": "suskhota theke rokkha",
+        "img": "./images/vaseline-lot.jpg"
     }
 ]

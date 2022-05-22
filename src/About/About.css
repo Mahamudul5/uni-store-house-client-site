@@ -1,0 +1,28 @@
+.main-about {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    height: 85vh;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .main-about {
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        height: 120vh;
+
+
+    }
+}
+
+.main-about h1 {
+    color: coral;
+}
+
+span {
+    color: blueviolet;
+}
