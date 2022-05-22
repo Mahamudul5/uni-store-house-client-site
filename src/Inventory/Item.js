@@ -6,7 +6,7 @@ import './Item.css'
 
 
 const Item = ({ item }) => {
-    const { _id, name, img, price, description } = item;
+    const { _id, name, img, price, description, quantity, supplier } = item;
     const navigate = useNavigate();
     const goToDetails = (_id) => {
         navigate(`/UpdateSingleItem/${_id}`)
@@ -21,7 +21,10 @@ const Item = ({ item }) => {
                         <Card.Title className='text-center'><h3>{name}</h3></Card.Title>
                         <Card.Text>
                             <h5 className='text-center'>price:{price}</h5>
+                            <h5 className='text-center'>quantity:{quantity}</h5>
                             <p className='text-center'>{description}</p>
+                            <p className='text-center'>supplier:{supplier}</p>
+
                         </Card.Text>
                         <Button onClick={() => goToDetails(_id)} variant="primary d-block mx-auto">Update</Button>
                     </Card.Body>

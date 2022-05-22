@@ -9,6 +9,7 @@ const Myitem = () => {
 
 
     const newProducts = products.filter(product => product.email === user.email);
+
     return (
         <div>
             <h2 className='m-3 text-center'>My Items</h2>
@@ -37,6 +38,7 @@ const Myitem = () => {
                                 <td>{product.suplier}</td>
                             </tr>
                         ))
+
                     }
                 </tbody>
             </Table>
