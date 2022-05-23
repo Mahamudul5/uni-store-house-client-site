@@ -2,6 +2,7 @@ import React from 'react';
 import Item from '../Inventory/Item';
 import '../Inventory/Inventory.css';
 import useData from '../CustomHooks/useData';
+import { Link } from 'react-router-dom';
 
 const ManageInventory = () => {
     const [Inventory] = useData();
@@ -14,6 +15,8 @@ const ManageInventory = () => {
                         key={item._id}
                         item={item}
                     ></Item>)}
+
+                <Link className='font-bold' as={Link} to="/RemoveItem">RemoveItem</Link>
             </div>
         </div>
     );

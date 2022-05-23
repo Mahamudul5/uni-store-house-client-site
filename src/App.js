@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import About from './About/About';
+import AddItem from './AddItem/AddItem';
 import './App.css';
 import Blog from './Blog/Blog';
 import Footer from './Footer/Footer';
@@ -11,6 +12,7 @@ import RequireAuth from './LogIn/RequireAuth';
 import ManageInventory from './ManageInventory/ManageInventory';
 import Myitem from './Myitem/Myitem';
 import PageNotFound from './PageNotFoound/PageNotFound';
+import RemoveItem from './RemoveItem/RemoveItem';
 import SignUp from './SignUp/SignUp';
 import UpdateSingleItem from './UpdateSingleItem/UpdateSingleItem';
 
@@ -27,7 +29,11 @@ function App() {
         <Route path="/UpdateSingleItem/:Id" element={<RequireAuth>
           <UpdateSingleItem />
         </RequireAuth>} />
+        <Route path="/AddItem" element={<RequireAuth>
+          <AddItem />
+        </RequireAuth>} />
         <Route path="/Myitem" element={<Myitem />} />
+        <Route path="/RemoveItem" element={<RemoveItem />} />
         <Route path="/ManageInventory" element={<ManageInventory />} />
         <Route path="/logIn" element={<LogIn />} />
         <Route path="/signUp" element={<SignUp />} />

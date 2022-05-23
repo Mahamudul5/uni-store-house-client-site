@@ -49,9 +49,13 @@ const UpdateSingleItem = () => {
                 </form>
 
                 <button onClick={() => handleDelivered()} className='btn btn-primary'>DELIVERED</button>
-                <Link eventKey={2} as={Link} to="/ManageInventory">
+                <Link className='' eventKey={2} as={Link} to="/ManageInventory">
                     ManageInventory
                 </Link>
+                <Link className='ms-3' eventKey={2} as={Link} to="/AddItem">
+                    AddItem
+                </Link>
+
 
             </div>
         </div>
