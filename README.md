@@ -1,11 +1,24 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project [live site link](https://uni-store-house.web.app
+).
 
-## Available Scripts
+## Features of this website:
+ - this is a inventory website
+ - you can log in and sign in .
+ - you can manage this inventory if your are logged in
+ - you can add item 
+ - you can remove item 
 
-In the project directory, you can run:
 
+ ## Useage Technology:
+ - html
+ - js
+ - react.js
+ - firebase 
+ - react hooks
+ - toastyfy
+ - react hook form
 ### `npm start`
 
 Runs the app in the development mode.\
